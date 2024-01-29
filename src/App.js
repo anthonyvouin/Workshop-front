@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import { Landing, Search } from './pages';
 import { BarCodeScanner } from './components';
+
+
 
 
 function App() {
@@ -12,6 +15,7 @@ function App() {
       <Route path="/bar" component={BarCodeScanner} />
     </Switch>
   </Router>
+
   );
 }
 
