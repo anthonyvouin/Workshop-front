@@ -1,14 +1,15 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-import LandingPage from './components/landingPage';
+import { Landing, Search } from './pages';
+import { BarCodeScanner } from './components';
 
 
 function App() {
   return (
     <Router>
     <Switch>
-      <Route path="/" exact component={LandingPage} />
-      <Route path="/scanpage" component={LandingPage} />
+      <Route path="/" exact component={Landing} />
+      <Route path="/gps" component={Search} />
+      <Route path="/bar" component={BarCodeScanner} />
     </Switch>
   </Router>
   );
