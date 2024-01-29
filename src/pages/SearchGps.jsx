@@ -2,7 +2,7 @@ import React from 'react'
 
 function SearchGps() {
   return (
-    <div>SearchGps</div>
+    <div>SearchGps14</div>
   )
 }
 
