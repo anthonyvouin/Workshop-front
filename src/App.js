@@ -12,6 +12,7 @@ function App() {
       <Route path="/scanpage" component={LandingPage} />
     </Switch>
   </Router>
+
   );
 }
 
