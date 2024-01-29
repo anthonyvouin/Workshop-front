@@ -1,12 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/navbar';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import LandingPage from './components/landingPage';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <Router>
+    <Switch>
+      <Route path="/" exact component={LandingPage} />
+      <Route path="/scanpage" component={LandingPage} />
+    </Switch>
+  </Router>
   );
 }
 

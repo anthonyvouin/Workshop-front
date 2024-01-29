@@ -25,33 +25,33 @@ const stats = [
 ]
 const values = [
   {
-    name: 'Be world-class.',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+    name: 'Innovation :',
+    description: 'Nous repoussons les limites de la technologie pour créer des expériences uniques qui transforment la manière dont vous interagissez avec vos produits alimentaires.',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'Take responsibility.',
-    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+    name: 'Transparence :',
+    description: 'Nous croyons en une information claire et accessible. Mangi vise à fournir des détails précis sur chaque produit, favorisant une alimentation consciente et éclairée.',
     icon: HandRaisedIcon,
   },
   {
-    name: 'Be supportive.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus voluptas blanditiis et.',
+    name: 'Engagement envers la qualité : ',
+    description: "Nous nous engageons à fournir une expérience utilisateur exceptionnelle. La qualité est notre priorité, de la précision de la reconnaissance des codes-barres à l'affichage en réalité augmentée  ",
     icon: UserGroupIcon,
   },
   {
-    name: 'Always learning.',
-    description: 'Iure sed ab. Aperiam optio placeat dolor facere. Officiis pariatur eveniet atque et dolor.',
+    name: 'Respect de la vie privée : ',
+    description: ' La confidentialité de vos données est une priorité. Nous nous engageons à protéger vos informations et à garantir une utilisation éthique de la technologie.',
     icon: AcademicCapIcon,
   },
   {
-    name: 'Share everything you know.',
-    description: 'Laudantium tempora sint ut consectetur ratione. Ut illum ut rem numquam fuga delectus.',
+    name: 'Accessibilité mondiale : ',
+    description: "Notre mission est de rendre la réalité augmentée accessible à tous, quel que soit l'endroit dans le monde. Mangi s'efforce d'éliminer les barrières technologiques.",
     icon: SparklesIcon,
   },
   {
-    name: 'Enjoy downtime.',
-    description: 'Culpa dolorem voluptatem velit autem rerum qui et corrupti. Quibusdam quo placeat.',
+    name: 'Rêver en Technicolor : ',
+    description: "Chez Mangi, nous encourageons chacun à rêver en couleurs vives et à voir le monde de la nourriture avec une perspective éclatante. Notre réalité augmentée n'est pas seulement une technologie, c'est une toile où chaque produit devient une œuvre d'art interactive, éveillant la curiosité et inspirant des choix alimentaires vibrants.",
     icon: SunIcon,
   },
 ]
@@ -163,7 +163,7 @@ const footerNavigation = {
   ],
 }
 
-export default function Example() {
+export default function LandingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -268,7 +268,7 @@ export default function Example() {
         </div>
 
         {/* Header section */}
-        <div className="relative isolate -z-10 overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
+        <div className="relative isolate -z-10 overflow-hidden bg-gradient-to-b  pt-14">
           <div
             className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
             aria-hidden="true"
@@ -276,19 +276,17 @@ export default function Example() {
           <div className="mx-auto max-w-7xl px-6 py-20 sm:py-20 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
               <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto">
-                We’re a passionate group of people working from around the world to build the future of ecommerce.
+              Découvrez vos produits avec la réalité augmentée
               </h1>
               <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
                 <p className="text-lg leading-8 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui
-                  irure qui lorem cupidatat commodo.
+                Découvrez une nouvelle façon de connaître vos produits alimentaires avec Mangi, notre solution révolutionnaire de réalité augmentée. Plongez dans une expérience immersive où chaque article prend vie grâce à la technologie de pointe.Des détails nutritionnels aux origines du produit, notre application vous offre une vision approfondie pour vous aider à prendre des décisions éclairées.
                 </p>
               </div>
               <img
-                src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
+                src="https://i.ibb.co/ZJnPK6X/5561905-21279.jpg"
                 alt=""
-                className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+                className="mt-8 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-14 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-32"
               />
             </div>
           </div>
@@ -297,11 +295,10 @@ export default function Example() {
 
         {/* Values section */}
         <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Our values</h2>
+          <div >
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Nos valeurs</h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
-              dolor cupiditate blanditiis.
+            Découvrez une nouvelle façon de connaître vos produits alimentaires avec Mangi, notre solution révolutionnaire de réalité augmentée. Plongez dans une expérience immersive où chaque article prend vie grâce à la technologie de pointe.
             </p>
           </div>
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base leading-7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:gap-x-16">
@@ -315,6 +312,11 @@ export default function Example() {
               </div>
             ))}
           </dl>
+        </div>
+
+        <div className="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+
+
         </div>
 
         {/* Team section */}
